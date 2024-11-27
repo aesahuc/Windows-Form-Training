@@ -16,5 +16,3 @@ int workingAgesRemaining = retirementAge - age;
 Console.WriteLine($"Nombre: {name}");
 Console.WriteLine($"Edad: {age}");
 Console.WriteLine($"Los años que falta para retirarse son {workingAgesRemaining}");
-
-Console.WriteLine($"Los años que falta para retirarse son {workingAgesRemaining}");
