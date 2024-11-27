@@ -1,6 +1,6 @@
 ﻿// Declare variables
-string firstName = string.Empty;
-string lastName = string.Empty;
+string? firstName = string.Empty;
+string? lastName = string.Empty;
 int age;
 int retirementAge = 65;
 decimal salary;
@@ -17,11 +17,14 @@ lastName = Console.ReadLine();
 Console.Write("Ingresa tu edad, por favor: ");
 age = Convert.ToInt32(Console.ReadLine());
 
+Console.Write("Ingresa tu salario, por favor: ");
+salary = Convert.ToDecimal(Console.ReadLine());
+
 Console.Write("Ingresa tu genero, por favor.(M o F): ");
 gender = Convert.ToChar(Console.ReadLine());
 
 Console.Write("Trabajando? (True o False): ");
-salary = Convert.ToBoolean(Console.ReadLine());
+working = Convert.ToBoolean(Console.ReadLine());
 
 
 //Process the data
@@ -33,4 +36,4 @@ Console.WriteLine($"Edad: {age}");
 Console.WriteLine($"Tu salario es: {salary}");
 Console.WriteLine($"Tu genero es: {gender}");
 Console.WriteLine($"Estas empleado: {working}");
-Console.WriteLine($"Los años que falta para retirarse son {workingAgesRemaining}");
+Console.WriteLine($"Los anos que falta para retirarse son {workingAgesRemaining}");
