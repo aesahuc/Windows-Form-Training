@@ -44,7 +44,7 @@ switch (resp)
         break;
     default:
         resultado = 0;
-        Co  nsole.WriteLine("No se realizo ninguna operacion");
+        Console.WriteLine("No se realizo ninguna operacion");
     break;
 }
 
